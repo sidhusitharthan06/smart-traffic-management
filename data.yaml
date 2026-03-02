@@ -1,0 +1,8 @@
+names:
+- Bus
+- Car
+- Motorcycle
+nc: 3
+train: ./Vehicle-detection-2/train/images
+val: ./Vehicle-detection-2/valid/images
+test: ./Vehicle-detection-2/test/images

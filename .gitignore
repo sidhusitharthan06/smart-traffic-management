@@ -1,0 +1,21 @@
+# Large video files (GitHub rejects files > 100MB)
+archive/
+*.mp4
+
+# Training run outputs (large model weights)
+runs/
+
+# Dataset images (thousands of files, too large for GitHub)
+Indian Vehicle Dataset.v1i.yolov8/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.env/

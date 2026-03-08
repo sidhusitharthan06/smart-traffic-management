@@ -8,6 +8,20 @@ runs/
 # Dataset images (thousands of files, too large for GitHub)
 Indian Vehicle Dataset.v1i.yolov8/
 
+# Training and testing images
+test_images/
+train_images/
+valid_images/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# Model weight files
+*.pt
+
 # Python cache
 __pycache__/
 *.pyc
@@ -19,3 +33,9 @@ Thumbs.db
 # Virtual environments
 venv/
 .env/
+
+# IDE files
+.idea/
+
+# Submodule/empty dirs
+smart_traffic_management/
